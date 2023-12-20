@@ -5,8 +5,9 @@ In this repository, I have created two .ipynb files: train_models will train the
 
 
 ### How to use
-    1. Update END_DATE variable to desired date 
+    1. Update END_DATE variable to desired date in train_models.ipynb
     2. Run all cells in train_models.ipynb
+        2a. This will take ~5 minutes to scrape all player data over all games year to date. 
     3. Run all cells in make_predictions.ipynb
     4. Investigate SoGs predictions for various Over/Unders that are predicted in cells. 
     5. Compare against predicted Over/Under SoGs outcome markets manually
