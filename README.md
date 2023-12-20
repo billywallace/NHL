@@ -14,7 +14,9 @@ In this repository, I have created two .ipynb files: train_models will train the
 
 
 ### Evaluation
-We evaluate the models on their predictive power using accuracy, but more importantly precision and recall to truly understand the strength of the model.  With respect to our use case, precision is more important as we would like to avoid mistakes. 
+We evaluate the models on their predictive power using accuracy, but more importantly precision and recall to truly understand the strength of the model.  With respect to our use case, precision is more important as we would like to avoid mistakes. Evaluation against SoGs markets is challenging given I have not pulled in SoGs odds from live sports books. One assumption I made in evaluating my models is backtesting against players who currently have desired odds for SoGs lines -- most commonly I look for o2.5 at -150 or shorter. My thought process is that if we can achieve over 60% precision for test data, then -150 or shorter would be a profitable wager.
+
+I have recorded my prediction history in make_predictions.ipynb
 
 
 ### Sources
